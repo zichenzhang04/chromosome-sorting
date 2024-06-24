@@ -258,6 +258,8 @@ def process_middle(ChIA_Drop_old, left_anchor, right_anchor, region, middle_anch
     # Sort GEMs by their length
     valid_gems.sort(key=lambda x: x[2])
 
+    print(valid_gems)
+
     return valid_gems
 
 
